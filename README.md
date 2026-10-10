@@ -1,7 +1,5 @@
 # VideoMiner
 
-Inference code for VideoMiner. Model weights and training code are not included.
-
 ## Setup
 
 Tested with Python 3.10, CUDA 12.8 and an A800 80 GB GPU.
