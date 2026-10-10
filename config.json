@@ -1,0 +1,20 @@
+{
+  "mllm_path": "models/Qwen2-VL-7B-Instruct",
+  "judge_llm_path": "models/Qwen2.5-7B-Instruct",
+  "judge_lora_path": "models/policy-checkpoint",
+  "embed_path": "models/bge-large-en-v1.5",
+  "fps": 1.0,
+  "max_total_frames": 512,
+  "max_depth": 4,
+  "max_seg_num": 4,
+  "min_seg_frames": 16,
+  "caption_frame_num": 32,
+  "caption_max_new_tokens": 512,
+  "caption_max_words": 200,
+  "cluster_eps_start": 0.01,
+  "cluster_eps_step": 0.001,
+  "judge_temperature": 0.7,
+  "judge_top_p": 0.92,
+  "sum_frame_num": 32,
+  "seed": 42
+}
