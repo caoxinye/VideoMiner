@@ -1,5 +1,6 @@
-# VideoMiner
+# VideoMiner: Iteratively Grounding Key Frames of Hour-Long Videos via Tree-Based Group Relative Policy Optimization
 
+This paper has been published in the proceedings of the **2025 IEEE/CVF International Conference on Computer Vision (ICCV)**.
 ## Setup
 
 Tested with Python 3.10, CUDA 12.8 and an A800 80 GB GPU.
@@ -36,3 +37,16 @@ or omit `--options` for an open-ended question. Results are saved as JSON.
 
 Sampling and search parameters, including `fps`, `max_total_frames`, `max_depth`,
 `cluster_eps_step`, `judge_temperature` and `sum_frame_num`, are set in the config.
+
+If you find our code useful for your research, please consider citing our paper:
+```bibtex
+@INPROCEEDINGS{11445201,
+  author={Cao, Xinye and Guo, Hongcan and Qian, Jiawen and Nan, Guoshun and Wang, Chao and Pan, Yuqi and Hou, Tianhao and Wang, Xiaojuan and Gao, Yutong},
+  booktitle={2025 IEEE/CVF International Conference on Computer Vision (ICCV)}, 
+  title={VideoMiner: Iteratively Grounding Key Frames of Hour-Long Videos via Tree-Based Group Relative Policy Optimization}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={23773-23783},
+  doi={10.1109/ICCV51701.2025.02207}}
+```
